@@ -13,15 +13,14 @@
 		<Item Name="WiFi" Type="Folder">
 			<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
 			<Item Name="FrontPanel.vi" Type="VI" URL="../FrontPanel.vi"/>
+			<Item Name="Logger.vi" Type="VI" URL="../Logger.vi"/>
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 			<Item Name="Main_modular.vi" Type="VI" URL="../Main_modular.vi"/>
 			<Item Name="Model.vi" Type="VI" URL="../Model.vi"/>
 			<Item Name="TCP_CommModule.vi" Type="VI" URL="../TCP_CommModule.vi"/>
-			<Item Name="TCP_Controller.vi" Type="VI" URL="../TCP_Controller.vi"/>
-			<Item Name="TCP_Module.vi" Type="VI" URL="../TCP_Module.vi"/>
-			<Item Name="TCP_Viewer.vi" Type="VI" URL="../TCP_Viewer.vi"/>
 			<Item Name="ToControllerQueue.vi" Type="VI" URL="../ToControllerQueue.vi"/>
 			<Item Name="ToControllerQueue_bac.vi" Type="VI" URL="../ToControllerQueue_bac.vi"/>
+			<Item Name="ToLoggerQueue.vi" Type="VI" URL="../ToLoggerQueue.vi"/>
 			<Item Name="ToModelQueue.vi" Type="VI" URL="../ToModelQueue.vi"/>
 			<Item Name="ToModelQueue_bac.vi" Type="VI" URL="../ToModelQueue_bac.vi"/>
 			<Item Name="ToTCPQueue.vi" Type="VI" URL="../ToTCPQueue.vi"/>
@@ -30,9 +29,11 @@
 		</Item>
 		<Item Name="CommandCtrl.ctl" Type="VI" URL="../CommandCtrl.ctl"/>
 		<Item Name="CommCluster.ctl" Type="VI" URL="../CommCluster.ctl"/>
+		<Item Name="ControlerStatus.ctl" Type="VI" URL="../ControlerStatus.ctl"/>
 		<Item Name="DataCluster.ctl" Type="VI" URL="../DataCluster.ctl"/>
 		<Item Name="FormControllerToMOdelCluster.ctl" Type="VI" URL="../FormControllerToMOdelCluster.ctl"/>
 		<Item Name="FromTCPCluster.ctl" Type="VI" URL="../FromTCPCluster.ctl"/>
+		<Item Name="LoggerEnum.ctl" Type="VI" URL="../LoggerEnum.ctl"/>
 		<Item Name="Main_modular_state.ctl" Type="VI" URL="../Main_modular_state.ctl"/>
 		<Item Name="ModelQueueCluster.ctl" Type="VI" URL="../ModelQueueCluster.ctl"/>
 		<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
@@ -42,6 +43,7 @@
 		<Item Name="TCPQueueData.ctl" Type="VI" URL="../TCPQueueData.ctl"/>
 		<Item Name="ToControllerEnum.ctl" Type="VI" URL="../ToControllerEnum.ctl"/>
 		<Item Name="ToControllerQueueCluster.ctl" Type="VI" URL="../ToControllerQueueCluster.ctl"/>
+		<Item Name="ToLoggerQueueCluster.ctl" Type="VI" URL="../ToLoggerQueueCluster.ctl"/>
 		<Item Name="ToModelFromControllerEnum.ctl" Type="VI" URL="../ToModelFromControllerEnum.ctl"/>
 		<Item Name="ToModelFromTCPMessage.ctl" Type="VI" URL="../ToModelFromTCPMessage.ctl"/>
 		<Item Name="ToModelSourceEnum.ctl" Type="VI" URL="../ToModelSourceEnum.ctl"/>
