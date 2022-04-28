@@ -11,6 +11,39 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="WiFi" Type="Folder">
+			<Item Name="Queues" Type="Folder">
+				<Item Name="ToControllerQueue.vi" Type="VI" URL="../ToControllerQueue.vi"/>
+				<Item Name="ToLoggerQueue.vi" Type="VI" URL="../ToLoggerQueue.vi"/>
+				<Item Name="ToModelQueue.vi" Type="VI" URL="../ToModelQueue.vi"/>
+				<Item Name="ToTCPQueue.vi" Type="VI" URL="../ToTCPQueue.vi"/>
+				<Item Name="ToViewQueue.vi" Type="VI" URL="../ToViewQueue.vi"/>
+			</Item>
+			<Item Name="Types" Type="Folder">
+				<Item Name="CommandCtrl.ctl" Type="VI" URL="../CommandCtrl.ctl"/>
+				<Item Name="CommCluster.ctl" Type="VI" URL="../CommCluster.ctl"/>
+				<Item Name="ControlerStatus.ctl" Type="VI" URL="../ControlerStatus.ctl"/>
+				<Item Name="DataCluster.ctl" Type="VI" URL="../DataCluster.ctl"/>
+				<Item Name="FormControllerToMOdelCluster.ctl" Type="VI" URL="../FormControllerToMOdelCluster.ctl"/>
+				<Item Name="FromTCPCluster.ctl" Type="VI" URL="../FromTCPCluster.ctl"/>
+				<Item Name="LoggerEnum.ctl" Type="VI" URL="../LoggerEnum.ctl"/>
+				<Item Name="Main_modular_state.ctl" Type="VI" URL="../Main_modular_state.ctl"/>
+				<Item Name="ModelQueueCluster.ctl" Type="VI" URL="../ModelQueueCluster.ctl"/>
+				<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
+				<Item Name="State.ctl" Type="VI" URL="../State.ctl"/>
+				<Item Name="TCPCommModuleData.ctl" Type="VI" URL="../TCPCommModuleData.ctl"/>
+				<Item Name="TCPModuleState.ctl" Type="VI" URL="../TCPModuleState.ctl"/>
+				<Item Name="TCPQueueData.ctl" Type="VI" URL="../TCPQueueData.ctl"/>
+				<Item Name="ToControllerEnum.ctl" Type="VI" URL="../ToControllerEnum.ctl"/>
+				<Item Name="ToControllerQueueCluster.ctl" Type="VI" URL="../ToControllerQueueCluster.ctl"/>
+				<Item Name="ToLoggerQueueCluster.ctl" Type="VI" URL="../ToLoggerQueueCluster.ctl"/>
+				<Item Name="ToModelFromControllerEnum.ctl" Type="VI" URL="../ToModelFromControllerEnum.ctl"/>
+				<Item Name="ToModelFromTCPMessage.ctl" Type="VI" URL="../ToModelFromTCPMessage.ctl"/>
+				<Item Name="ToModelSourceEnum.ctl" Type="VI" URL="../ToModelSourceEnum.ctl"/>
+				<Item Name="ToViewCMD.ctl" Type="VI" URL="../ToViewCMD.ctl"/>
+				<Item Name="ToViewData.ctl" Type="VI" URL="../ToViewData.ctl"/>
+				<Item Name="ToViewQueueData.ctl" Type="VI" URL="../ToViewQueueData.ctl"/>
+				<Item Name="ViewUpdateEnum.ctl" Type="VI" URL="../ViewUpdateEnum.ctl"/>
+			</Item>
 			<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
 			<Item Name="FrontPanel.vi" Type="VI" URL="../FrontPanel.vi"/>
 			<Item Name="Logger.vi" Type="VI" URL="../Logger.vi"/>
@@ -18,39 +51,7 @@
 			<Item Name="Main_modular.vi" Type="VI" URL="../Main_modular.vi"/>
 			<Item Name="Model.vi" Type="VI" URL="../Model.vi"/>
 			<Item Name="TCP_CommModule.vi" Type="VI" URL="../TCP_CommModule.vi"/>
-			<Item Name="ToControllerQueue.vi" Type="VI" URL="../ToControllerQueue.vi"/>
-			<Item Name="ToControllerQueue_bac.vi" Type="VI" URL="../ToControllerQueue_bac.vi"/>
-			<Item Name="ToLoggerQueue.vi" Type="VI" URL="../ToLoggerQueue.vi"/>
-			<Item Name="ToModelQueue.vi" Type="VI" URL="../ToModelQueue.vi"/>
-			<Item Name="ToModelQueue_bac.vi" Type="VI" URL="../ToModelQueue_bac.vi"/>
-			<Item Name="ToTCPQueue.vi" Type="VI" URL="../ToTCPQueue.vi"/>
-			<Item Name="ToViewQueue.vi" Type="VI" URL="../ToViewQueue.vi"/>
-			<Item Name="ToViewQueue_bac.vi" Type="VI" URL="../ToViewQueue_bac.vi"/>
 		</Item>
-		<Item Name="CommandCtrl.ctl" Type="VI" URL="../CommandCtrl.ctl"/>
-		<Item Name="CommCluster.ctl" Type="VI" URL="../CommCluster.ctl"/>
-		<Item Name="ControlerStatus.ctl" Type="VI" URL="../ControlerStatus.ctl"/>
-		<Item Name="DataCluster.ctl" Type="VI" URL="../DataCluster.ctl"/>
-		<Item Name="FormControllerToMOdelCluster.ctl" Type="VI" URL="../FormControllerToMOdelCluster.ctl"/>
-		<Item Name="FromTCPCluster.ctl" Type="VI" URL="../FromTCPCluster.ctl"/>
-		<Item Name="LoggerEnum.ctl" Type="VI" URL="../LoggerEnum.ctl"/>
-		<Item Name="Main_modular_state.ctl" Type="VI" URL="../Main_modular_state.ctl"/>
-		<Item Name="ModelQueueCluster.ctl" Type="VI" URL="../ModelQueueCluster.ctl"/>
-		<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
-		<Item Name="State.ctl" Type="VI" URL="../State.ctl"/>
-		<Item Name="TCPCommModuleData.ctl" Type="VI" URL="../TCPCommModuleData.ctl"/>
-		<Item Name="TCPModuleState.ctl" Type="VI" URL="../TCPModuleState.ctl"/>
-		<Item Name="TCPQueueData.ctl" Type="VI" URL="../TCPQueueData.ctl"/>
-		<Item Name="ToControllerEnum.ctl" Type="VI" URL="../ToControllerEnum.ctl"/>
-		<Item Name="ToControllerQueueCluster.ctl" Type="VI" URL="../ToControllerQueueCluster.ctl"/>
-		<Item Name="ToLoggerQueueCluster.ctl" Type="VI" URL="../ToLoggerQueueCluster.ctl"/>
-		<Item Name="ToModelFromControllerEnum.ctl" Type="VI" URL="../ToModelFromControllerEnum.ctl"/>
-		<Item Name="ToModelFromTCPMessage.ctl" Type="VI" URL="../ToModelFromTCPMessage.ctl"/>
-		<Item Name="ToModelSourceEnum.ctl" Type="VI" URL="../ToModelSourceEnum.ctl"/>
-		<Item Name="ToViewCMD.ctl" Type="VI" URL="../ToViewCMD.ctl"/>
-		<Item Name="ToViewData.ctl" Type="VI" URL="../ToViewData.ctl"/>
-		<Item Name="ToViewQueueData.ctl" Type="VI" URL="../ToViewQueueData.ctl"/>
-		<Item Name="ViewUpdateEnum.ctl" Type="VI" URL="../ViewUpdateEnum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
